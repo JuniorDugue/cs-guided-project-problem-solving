@@ -14,7 +14,25 @@ Notes:
 - Return an empty list if n == 0.
 """
 
+'''
+# problem solving in reverse
+# write a function that retrieves the first n elements from a list
+# return "invalid" if n exceeds the length of the list.
+# return an empty list if n == 0.
+
+# [0 to n] python we have a slice (takes a sub section of a list and returns that data as a list) [start inclusive : end exclusive]
+# in JS/TS '.slice()' method
+
+* check if n is greater than the length of the list
+    then return "invalid" to the caller
+otherwise if n is equal to zero
+    return an empty list
+
+otherwise
+    return the slice of [0 : n]
+'''
+
 
 def last(a, n):
     # Your code here
-
+    pass
